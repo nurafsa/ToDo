@@ -1,0 +1,13 @@
+<div class="card" style="width: 25rem">To Do List</div>
+<br>
+<div class="container" style="width: 25rem">
+    <div class="form-check" *ngFor="let item of currentToDoItems">
+        <span *ngIf="item.completed">
+            <input type="checkbox" class="form-check-input" checked disabled="disabled">
+        </span>
+        <span *ngIf="!item.completed">
+            <input type="checkbox" class="form-check-input" (click)="markItemDone(item.id)">
+        </span>
+        <label class="form-check-label">{{item.task}}</label>
+    </div>
+</div>

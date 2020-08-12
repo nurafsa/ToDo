@@ -1,0 +1,12 @@
+<div class="container" style="width: 25rem">
+    <br>
+    <div class="form-row align-items-center">
+        <label class="task font 14 mr-3" for="inputTask">Tasks</label>
+        <div class="col-auto">
+            <input type="text" class="form-control" id="inputTask" [(ngModel)]="task">
+        </div>
+    </div>
+    <br>
+    <button type="add" class="btn align-items-center" style="background-color: #e3deed;" (click)="addTask()">Add
+        Task</button>
+</div>

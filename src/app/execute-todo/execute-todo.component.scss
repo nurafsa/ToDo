@@ -1,0 +1,22 @@
+.card {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center;
+    margin-top:5rem;
+    margin-left: 30rem;
+    background: #e3deed;
+    padding: 10px 10px 10px 10px;
+    font-size: 18 !important;
+}
+
+
+.container {
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    background-color:#effbda;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
